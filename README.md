@@ -1,9 +1,8 @@
-# Curso-Explorer-Rocketseat
- <h3> Projetos realizados durante o curso Explorer Rocketseat </h3>
-  <br>
- <p>
-  <ul>
-    <li> Projeto 1: Mini projeto criado usando as tecnologias: HTML e CSS. </li>
+# Curso-Explorer-Rocketseat 🚀
+ <br>
+ <h3> <em>Projetos criados no curso Explorer Rocketseat</em> 💜 </h3>
 
-  </ul>
-</p>
+  <br><br>
+
+ <p>🔥 Projeto 1: Mini projeto criado usando as tecnologias: <strong style = "color: orange;">HTML</strong> e <strong style = "color: deepskyblue;">CSS</strong>. </p>
+ <!-- <p> 🔥 </p> -->
