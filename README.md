@@ -1,5 +1,5 @@
 # Curso-Explorer-Rocketseat 🚀
- <br>
+
  <h3> <em>Projetos criados no curso Explorer Rocketseat</em> 💜 </h3>
 
   <br><br>
