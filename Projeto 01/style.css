@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  background: linear-gradient(white,rgba(250, 235, 215, 0.322),white);
+}
+
+h1 {
+  font-size: 49px;
+  font-weight: normal;
+  line-height: 56px;
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+div#hero {
+  width: 592px;
+  margin: 0px auto 72px;
+}
+
+img#pessoa {
+  margin-bottom: 72px;
+}
+
+p, footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #7d7987;
+  line-height: 28px;
+}
+span, a {
+  color: #ff9900;
+}
+
+div#line {
+  width: 568px;
+  height: 0px;
+  border: 1px solid #eceff2;
+  margin: 0px auto 8px;
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+img#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
