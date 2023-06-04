@@ -4,5 +4,7 @@
 
   <br><br>
 
- <p>🔥 Projeto01: Mini projeto criado usando as tecnologias: <strong style = "color: orange;">HTML</strong> e <strong style = "color: deepskyblue;">CSS</strong>. </p>
- <!-- <p> 🔥 </p> -->
+ <p>🔥 Projeto01 - <em>Móveis customizados</em>: Mini projeto criado usando as tecnologias: <strong style = "color: orange;">HTML</strong> e <strong style = "color: deepskyblue;">CSS</strong>. </p>
+
+ <p>🔥 Projeto02 - <em>Flutuar.com</em>: Mini projeto criado usando as tecnologias: <strong style = "color: orange;">HTML</strong> e <strong style = "color: deepskyblue;">CSS</strong>. </p>
+
