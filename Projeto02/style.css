@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Mulish:wght@400;500;700&family=Open+Sans:wght@400;500;700&display=swap');
+
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(154, 246, 223, 0.228) 100%);
+  height: 100vh;
+}
+
+div.page {
+  max-width: 70vw;
+  margin: 0 200px;
+  padding-top: 65px;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+  
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  font-size: 18px;
+  color: #1F1534;
+  list-style-type: none;
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #1F1534;
+  text-decoration: none;
+}
+
+ul li a {
+  opacity: 0.5;
+}
+
+ul li a:hover, a#instagram:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+h1, ul {
+  font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+  font-size: 49px;
+  font-weight: normal;
+  color: #1F1534;
+  width: 490px;
+  line-height: 56px;
+}
+
+h1 span {
+  font-weight: bold;
+  color: #89C5CC;
+}
+
+section p {
+  font-size: 14px;
+  color: #7D7987;
+  width: 385px;
+  line-height: 28px;
+  margin: 40px 0px;
+}
+
+section button {
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  background-color: #69B99D;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 15px 30px;
+  gap: 12px;
+}
+
+section button:hover {
+  background-color: #38886e;
+  cursor: pointer;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+img#balls {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+
+
+
