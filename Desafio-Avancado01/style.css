@@ -1,0 +1,68 @@
+
+body {
+  background-color: #2F2E41;
+  color: white;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px 100px 100px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+li a, a#instagram  {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
+}
+
+span {
+  color: #00BFA6;
+  font-weight: bold;
+}
+
+section, footer {
+  text-align: center;
+}
+
+p {
+  margin-top: 60px;
+}
+section#info {
+  width: 600px;
+  line-height: 28px;
+  margin-left: 80px;
+}
+
+div#line {
+  width: 570px;
+  height: 0;
+  border: 1px solid #00BFA6;
+  margin: 27px auto;
+}
+
+img#cadeado {
+  margin: 20px 20px;
+}
+
+
+
+
+
+
+
