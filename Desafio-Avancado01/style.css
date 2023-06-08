@@ -2,21 +2,12 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Open+Sans:ital,wght@0,700;1,400&display=swap');
 
-/* 
-  FONTES
-  font-family: 'JetBrains Mono', monospace;
-  font-family: 'Open Sans', sans-serif;
-
-*/
-
-
 body {
   font-family: 'Open Sans', sans-serif;
   color: white;
   background-color: #2F2E41;
   
 }
-
 
 header {
   display: flex;
@@ -48,30 +39,39 @@ main {
   align-items: center;
   margin: 100px;
 }
+h1 {
+  font-size: 36px;
+}
 
 span {
   color: #00BFA6;
   font-weight: bold;
 }
 
-section, footer {
-  text-align: center;
-}
-
 p {
+  width: 570px;
+  font-weight: 400;
   margin-top: 60px;
 }
-section#info {
-  width: 600px;
+
+section {
+  color: #C2C2C2;
+  width: 570px;
   line-height: 28px;
-  margin-left: 80px;
+  text-align: center;
+  margin: auto;
 }
 
 div#line {
   width: 570px;
   height: 0;
   border: 1px solid #00BFA6;
+  margin: auto 610px;
+}
+
+p#contato {
   margin: 27px auto;
+  font-size: 14px;
 }
 
 img#cadeado {
