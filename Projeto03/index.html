@@ -15,7 +15,7 @@
       </p>
     </header>
     
-      <form>
+      <form id="event-form">
        <fieldset>
         <legend>Informações do Evento</legend>
       </fieldset>
@@ -25,21 +25,21 @@
         <label for="event-title">
           Título do evento <span>(mínimo 8 caracteres)</span>
         </label>
-        <input type="text" name="event-title" id="event-title">
+        <input type="text" name="event-title" id="event-title" minlength="8">
       </div>
 
         <div class="input-wrapper">
           <label for="event-link">
             Link do evento <span>(comece com https://)</span>
           </label>
-          <input type="url" name="event-link" id="event-link">
+          <input type="url" name="event-link" id="event-link" required>
         </div>
 
         <div class="input-wrapper">
           <label for="whatsapp">
             Whatsapp para contato <span>(somente números)</span>
           </label>
-          <input type="tel" name="whatsapp" id="whatsapp" placeholder="ex: 0119xxxxxxxx">
+          <input type="tel" name="whatsapp" id="whatsapp" required placeholder="ex: 0119xxxxxxxx">
         </div>
 
         <div class="input-wrapper">
@@ -62,11 +62,11 @@
         </fieldset>
         <div class="input-wrapper">
           <label for="email">E-mail do administrador <span>(digite um e-mail válido)</span></label>
-          <input type="email" name="email" id="email">
+          <input type="email" name="email" id="email" required>
         </div>
         <div class="input-wrapper">
           <label for="password">Senha de acesso para os participantes <span>(mínimo 8 caracteres)</span></label>
-          <input type="password" name="password" id="password">
+          <input type="password" name="password" id="password" required minlength="8">
         </div>
         <div class="checkbox-wrapper">
           <input type="checkbox" name="event-private" id="event-private">
@@ -80,22 +80,22 @@
         <div class="col-3">
           <div class="input-wrapper">
             <label for="event-date">Data</label>
-            <input type="date" name="event-date" id="event-date">
+            <input type="date" name="event-date" id="event-date" required>
           </div>
           <div class="input-wrapper">
             <label for="start">Das</label>
-            <input type="time" name="start" id="start">
+            <input type="time" name="start" id="start" required>
           </div>
           <div class="input-wrapper">
             <label for="end">Até</label>
-            <input type="time" name="end" id="end">
+            <input type="time" name="end" id="end" required>
           </div>
         </div>
       </form>
 
       <!-- Confirmação: enviando dados -->
       <footer>
-          <input type="submit" value="Salvar evento" id="submit">
+          <input type="submit" value="Salvar evento" id="submit" form="event-form"> <!-- o form foi necessário para que o submit envie os dados /-->
       </footer>
     
   </div>
