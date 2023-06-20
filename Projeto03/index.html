@@ -20,6 +20,7 @@
         <legend>Informações do Evento</legend>
       </fieldset>
 
+      <!-- Informações do campo "Informações do Evento" -->
       <div class="input-wrapper">
         <label for="event-title">
           Título do evento <span>(mínimo 8 caracteres)</span>
@@ -38,7 +39,7 @@
           <label for="whatsapp">
             Whatsapp para contato <span>(somente números)</span>
           </label>
-          <input type="number" name="whatsapp" id="whatsapp">
+          <input type="tel" name="whatsapp" id="whatsapp" placeholder="ex: 0119xxxxxxxx">
         </div>
 
         <div class="input-wrapper">
@@ -53,12 +54,49 @@
             <option value="podcast">Podcast</option>
             <option value="mentorship">Mentoria</option>
           </select>
-          
         </div>
-      
+        
+        <!-- Informações do campo "Privacidade" -->
+        <fieldset>
+          <legend>Privacidade</legend>
+        </fieldset>
+        <div class="input-wrapper">
+          <label for="email">E-mail do administrador <span>(digite um e-mail válido)</span></label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="input-wrapper">
+          <label for="password">Senha de acesso para os participantes <span>(mínimo 8 caracteres)</span></label>
+          <input type="password" name="password" id="password">
+        </div>
+        <div class="checkbox-wrapper">
+          <input type="checkbox" name="event-private" id="event-private">
+          <label for="event-private">Evento privado</label>
+        </div>
 
-       
+        <!-- Informações do campo "Dia e hora" -->
+        <fieldset>
+          <legend>Dia e hora</legend>
+        </fieldset>
+        <div class="col-3">
+          <div class="input-wrapper">
+            <label for="event-date">Data</label>
+            <input type="date" name="event-date" id="event-date">
+          </div>
+          <div class="input-wrapper">
+            <label for="start">Das</label>
+            <input type="time" name="start" id="start">
+          </div>
+          <div class="input-wrapper">
+            <label for="end">Até</label>
+            <input type="time" name="end" id="end">
+          </div>
+        </div>
       </form>
+
+      <!-- Confirmação: enviando dados -->
+      <footer>
+          <input type="submit" value="Salvar evento" id="submit">
+      </footer>
     
   </div>
 </body>
