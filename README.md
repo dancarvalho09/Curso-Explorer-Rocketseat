@@ -4,7 +4,7 @@
 
   <br><br>
 
-<h3> Projetos </h3>
+<h3> ProjetosAula </h3>
 <br>
 
 <p>✅ Projeto02 - <em>Treine.me</em>: Mini projeto criado utilizando conceitos de flexbox. Tecnologias: <strong style = "color: orange;">HTML</strong> e <strong style = "color: deepskyblue;">CSS</strong>. </p>
@@ -20,5 +20,6 @@
 <h3> Desafios </h3> 
 <br>
 
- <p>🔥 ProjetoExtra01 - <em>Flutuar.com</em>: Mini projeto recriando layout usando as tecnologias: <strong style = "color: orange;">HTML</strong> e <strong style = "color: deepskyblue;">CSS</strong>. </p>
+ <h4>🔥 <strong>Recriando-layout01 -</strong> <em>Flutuar.com</em></h4>
+ <p> Mini projeto recriando layout usando as tecnologias: <strong style = "color: orange;">HTML</strong> e <strong style = "color: deepskyblue;">CSS</strong>. </p>
 
