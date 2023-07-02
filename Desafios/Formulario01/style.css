@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Staatliches&display=swap');
+
+/* Fontes
+  font-family: 'Staatliches', cursive;
+  font-family: 'Poppins', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Staatliches', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 368px;
+  background-color: #535971;
+  display: block;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+header{
+  background-color: #535971;
+  color: white;
+  height: 250px;
+  padding: 140px;
+  margin-bottom: 50px;
+ }
+
+ header h1 {
+  font-size: 48px;
+  font-weight: 400;
+ }
+
+
+header p {
+  
+  width: 350px;
+  padding-top: 18px;
+ }
+
+p, input, label {
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px;
+  margin-bottom: 8px;
+ }
+
+form {
+  background-color: white;
+  width: 750px;
+  border: 1px solid #E6E6F0;
+  border-radius: 20px 20px 0px 0px ;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+ }
+
+fieldset {
+  border: none;
+ }
+
+ fieldset legend {
+  font-size: 24px;
+  width: 600px;
+  border-bottom: 1px solid #E6E6F0;
+  margin: auto 64px;
+  padding: 16px;
+ }
+
+legend.title {
+  padding-top: 64px;
+ }
+ span {
+  font-size: 12px;
+  color: #9f9fa5fa;
+ }
+
+input {
+  width: 100%;
+  height: 56px;
+  border: 1px solid #E6E6F0;
+  padding-left: 5px;
+ }
+
+label {
+  font-size: 14px;
+ }
+
+div.input-wrapper {
+  margin: 32px 64px 0;
+ }
+
+div.input-wrapper h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+footer {
+  background-color: #535971;
+  height: 160px;
+  border: 1px solid #E6E6F0;
+  border-radius: 0px 0px 20px 20px ;
+  display: block;
+  flex-direction: column;
+  justify-items: center;
+  padding: 55px 70px;
+}
+
+#submit {
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  background-color: #FF5374;
+  color: white;
+  width: 610px;
+  height: 55px;
+  border: none;
+  border-radius: 20px;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
