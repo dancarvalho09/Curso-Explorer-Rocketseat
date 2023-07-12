@@ -80,6 +80,9 @@ fieldset {
   padding: 16px;
  }
 
+ div.full-name {
+  display: flex;
+ }
 legend.title {
   padding-top: 64px;
  }
@@ -106,6 +109,10 @@ div.input-wrapper {
 div.input-wrapper h3 {
   font-size: 20px;
   font-weight: 400;
+}
+
+div.mentorship-date {
+  display: flex;
 }
 
 footer {
