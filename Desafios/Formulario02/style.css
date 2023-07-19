@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Staatliches&display=swap');
+
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Staatliches', cursive;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body::before {
+    width: 100%;
+    height: 477px;
+    content: '';
+    background-color: #293241;
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header {
+    width: 100%;
+    background-color: #293241;
+    color: #ffff;
+    text-align: center;
+    padding-top: 105px;
+}
+
+ header h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #ffff;
+ }
+header img {
+    margin: 30px;
+}
+
+form {
+    width: 750px;
+    margin: auto;
+    background-color: #ffff;
+    border: 1px solid red;
+}
+
+
+/* INFORMAÇÕES PESSOAIS */
+
+.fieldset-color {
+    width: 750px;
+    height: 135px;
+    background-color: #f67669;
+    border-radius: 20px 20px 0 0;
+    margin: auto;
+}
+
+fieldset.color {
+    border: none;
+}
+
+fieldset h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #ffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 60px;
+}
+
+div.input-wrapper {
+    padding: 32px 64px 0;
+}
+
+input {
+    width: 100% ;
+    height: 56px;
+    background-color: #fafafc;
+    border-radius: 8px;
+    border: 1px solid #e6e6f0;
+    margin-top: 10px;
+}
+
+div.full-name {
+    display: flex;
+    margin: auto 0px;
+}
+
+    
+
+
+
