@@ -23,17 +23,68 @@
         <div class="full-name">
             <div class="input-wrapper">
                 <label for="first-name">Nome</label>
-                <input type="text" name="first-name" id="first-name">
+                <input type="text" name="first-name" id="first-name" required>
             </div>
             <div class="input-wrapper">
                 <label for="last-name">Sobrenome</label>
-                <input type="text" name="last-name" id="last-name">
+                <input type="text" name="last-name" id="last-name" required>
+            </div>
+        </div>
+
+        <div class="input-wrapper">
+            <label for="email">Email <span>(digite um email válido)</span></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <!-- INFORMAÇÕES DO MENTOR -->
+        <fieldset class="default">
+            <legend class="default">Informações do mentor</legend>
+        </fieldset>
+        <div class="line-separator"></div>
+
+        <div class="input-wrapper">
+            <div class="mentor-options">
+                <label for="mentor">Selecione quem foi seu mentor</label>
+                <select name="mentor" id="mentor" required="required">
+                    <option value="0">Clique aqui</option>
+                    <option value="1">Carlos</option>
+                    <option value="2">Amanda</option>
+                    <option value="3">Luiz</option>
+                    <option value="4">Mariana</option>
+                </select>
             </div>
         </div>
         <div class="input-wrapper">
-            <label for="email">Email</label>
-            <input type="email" name="" id="">
+            <label for="feedback">Feedback sobre o mentor</label>
+            <textarea name="feedback" id="feedback"></textarea>
         </div>
+        <div class="checkbox-wrapper">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+        </div>
+
+        <!-- PRÓXIMA MENTORIA -->
+        <fieldset class="default">
+            <legend class="default">Agendamento da próxima mentoria</legend>
+        </fieldset>
+        <div class="line-separator"></div>
+
+        <div class="col-3">
+            <div class="input-wrapper">
+                <label for="schedule-date">Data</label>
+                <input type="date" name="schedule-date" id="schedule-date" required>
+              </div>
+              <div class="input-wrapper">
+                <label for="start">Das</label>
+                <input type="time" name="start" id="start" required>
+              </div>
+              <div class="input-wrapper">
+                <label for="end">Até</label>
+                <input type="time" name="end" id="end" required>
+              </div>
+        </div>
+        
+        <input class="submit" type="submit" value="Salvar">
     </form>
 </body>
 </html>
