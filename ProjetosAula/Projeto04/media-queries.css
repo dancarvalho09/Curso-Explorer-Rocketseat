@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media (max-width: 1199px) {
+  main {
+    transition: ease-in-out 700ms;
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  main {
+    max-width: fit-content;
+    flex-direction: row;
+    gap: 16rem;
+    transition: ease-in-out 500ms;
+  }
+
+  main > div {
+    max-width: 50rem;
+    flex: 1;
+  }
+
+  div.intro {
+    max-width: 44rem;
+  }
+
+  div.prepare-mode {
+    max-width: 53rem;
+  }
+
+  h1, h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  p, li, strong {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+}
