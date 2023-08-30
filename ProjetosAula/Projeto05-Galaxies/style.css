@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* Importando fonte Mulish*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #121214;
+}
+
+div.card {
+    background-color: #202024;
+    border: 2px solid #323238;
+    border-radius: 8px;
+}
+
+div.card h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #e1e1e6;
+    padding: 24px 32px 0;
+    
+}
+
+div.card p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #c4c4cc;
+    padding: 24px 32px 32px;
+}
